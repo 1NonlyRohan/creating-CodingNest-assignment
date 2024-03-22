@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: josefin sans;
+}
+
+.navbar {
+    background-color: rgb(3, 21, 24);
+    height: 100px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar ul {
+    list-style: none;
+    margin-left: 76%;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-family: 800;
+    font-size: 18px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: #0ef;
+}
+
+.section-content {
+    margin: 160px 50px 80px 50px;
+    background-color: rgb(62, 63, 63);
+    height: 900px;
+    border-radius: 10px;
+}
+
+.section-content:hover{
+    box-shadow: 5px 5px 14px 12px rgb(6, 233, 120);
+}
+
+.sec-content {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.sec-content h1 {
+    font-family: cinzel;
+    font-size: 30px;
+    color: rgb(240, 7, 7);
+}
+
+#p1 {
+    color: darkorange;
+    font-family: math;
+    font-size: 30px;
+    padding: 30px 20px;
+    font-size: 22px;
+}
+
+#p2 {
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #0ef;
+    font-family: monospace;
+    padding: 20px 20px;
+    font-size: 22px;
+}
+
+#p3 {
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #0ef;
+    padding: 20px 20px;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+#p4 {
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #0ef;
+    padding: 20px 20px;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+#p5 {
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-family: monospace;
+    font-size: 22px;
+    color: #0ef;
+    padding: 20px 20px;
+}
+
+#p6 {
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-size: 22px;
+    color: #0ef;
+    font-family: monospace;
+    padding: 20px 20px;
+}
+
+.footer {
+    background-color: rgb(41, 40, 40);
+    width: 100%;
+    height: 400px;
+    margin: 10px 0px;
+}
+
+.foot-content {
+    float: left;
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+}
+
+#a1 {
+    display: inline-block;
+    margin: 60px 20px 20px 550px;
+    color: rgb(148, 147, 147);
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#a1:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: 0.6s;
+    padding-left: 12px;
+}
+
+#a2 {
+    display: inline-block;
+    margin: 100px 20px 20px 550px;
+    color: rgb(148, 147, 147);
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#a2:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: 0.6s;
+    padding-left: 12px;
+}
+
+#a3 {
+    display: inline-block;
+    margin: 140px 20px 20px 560px;
+    color: rgb(148, 147, 147);
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#a3:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: 0.6s;
+    padding-left: 12px;
+}
+
+.links-content {
+    float: left;
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+}
+
+#a4 {
+    display: inline-block;
+    margin: 60px 20px 20px 700px;
+    color: rgb(238, 63, 156);
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#a4:hover {
+    color: rgb(240, 30, 142);
+    text-decoration: underline;
+    transition: 0.6s;
+    padding-left: 12px;
+}
+
+#a5 {
+    display: inline-block;
+    margin: 100px 20px 20px 700px;
+    color: rgb(52, 94, 221);
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#a5:hover {
+    color: rgb(31, 84, 243);
+    text-decoration: underline;
+    transition: 0.6s;
+    padding-left: 12px;
+}
+
+#a6 {
+    display: inline-block;
+    margin: 140px 20px 20px 700px;
+    color: rgb(9, 67, 243);
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#a6:hover {
+    color: rgb(5, 39, 139);
+    text-decoration: underline;
+    transition: 0.6s;
+    padding-left: 12px;
+}
+
+.codingnest {
+    padding: 350px 10px 20px 50px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.codingnest a{
+    color: antiquewhite;
+}
+
+.codingnest a:hover{
+    color: aqua;
+    transition: 0.4s;
+}
+
+img {
+    height: 100px;
+    position: absolute;
+    width: 140px;
+    margin: 290px 30px 30px 1180px;
+    border-radius: 10px;
+}
